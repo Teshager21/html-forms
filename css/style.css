@@ -18,8 +18,8 @@ body {
 #logo {
     margin: 1.5em 0 1em;
     padding: 0;
-    width: 28vw;
-    height: 2.5em;
+    width: 20vw;
+    height: 2.1em;
 }
 
 form {
@@ -179,4 +179,24 @@ button img {
 .statements p:last-child a {
     font-weight: 600;
     font-size: 0.6rem;
+}
+
+footer {
+    margin: 1.5em 2em 1em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.7rem;
+}
+
+footer p:last-child {
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.anchors a {
+    color: #404040;
+    font-size: 0.7rem;
+    text-decoration: none;
 }
