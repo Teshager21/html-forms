@@ -1,5 +1,6 @@
 :root {
     --blue: #0077c5;
+    --gray: #eceef1;
 }
 
 * {
@@ -9,19 +10,21 @@
 }
 
 body {
-    background-color: #ECEEF1;
+    background-color: var(--gray);
+    color: #404040;
     font-family: 'Montserrat', sans-serif;
 }
 
 #logo {
-    opacity:0.4;
-    width: 25vw;
-    height: 10vw;
+    margin: 1.5em 0 1em;
+    padding: 0;
+    width: 28vw;
+    height: 2.5em;
 }
 
 form {
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid #c7c7c7;
     display: flex;
     flex-direction: column;
     height: 43em;
@@ -32,10 +35,9 @@ form {
 .form-header {
     align-items: center;
     display: flex;
-    flex: 3;
+    flex: 2.3;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-bottom: 1.5em;
 }
 
 .form-title {
@@ -80,6 +82,8 @@ a {
 
 input {
     border-radius: 0.2em;
+    box-shadow: none;
+    border: 1px solid lightgray;
     height: 3em;
     margin-top: 0.5em;
 }
@@ -88,6 +92,7 @@ button {
     align-items: center;
     background-color: var(--blue);
     border-radius: 0.5em;
+    box-shadow: none;
     color: white;
     display: flex;
     font-size: 1rem;
@@ -114,6 +119,12 @@ button img {
     flex-direction: column;
 }
 
+.phone p {
+    font-size: 0.65em;
+    margin-top: 0.55em;
+    margin-bottom: 3em;
+}
+
 .password {
     display: flex;
     flex: 2;
@@ -124,7 +135,7 @@ button img {
 .password img {
     left: 90%;
     position: absolute;
-    top: 35%;
+    top: 30%;
     width: 2em;
 }
 
@@ -139,5 +150,33 @@ button img {
 }
 
 .statements {
+    justify-content: space-between;
+    display: flex;
     flex: 2;
+    flex-direction: column;
+}
+
+.statements p {
+    flex-direction: column;
+}
+
+.statements p:first-child {
+    color: #404040;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 0 1.1em;
+}
+
+.statements p:last-child {
+    background-color: var(--gray);
+    font-size: 0.6rem;
+    text-align: center;
+    padding: 2.5em;
+    margin: 0 -3.3em -3.3em -3.3em;
+}
+
+.statements p:last-child a {
+    font-weight: 600;
+    font-size: 0.6rem;
 }
