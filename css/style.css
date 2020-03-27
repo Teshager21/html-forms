@@ -85,13 +85,21 @@ input {
 }
 
 button {
+    align-items: center;
     background-color: var(--blue);
     border-radius: 0.5em;
     color: white;
+    display: flex;
     font-size: 1rem;
+    justify-content: center;
     height: 3em;
     margin-top: 0.5em;
     width: 21em;
+}
+
+button img {
+    height: 1.5em;
+    margin: 0.7em;
 }
 
 .email {
@@ -110,6 +118,14 @@ button {
     display: flex;
     flex: 2;
     flex-direction: column;
+    position: relative;
+}
+
+.password img {
+    left: 90%;
+    position: absolute;
+    top: 35%;
+    width: 2em;
 }
 
 .con-pass {
