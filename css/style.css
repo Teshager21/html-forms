@@ -1,0 +1,113 @@
+:root {
+    --blue: #0077c5;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo {
+    opacity:0.4;
+    width: 25vw;
+    height: 10vw;
+}
+
+form {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    height: 43em;
+    padding: 2em;
+    width: 25em;
+}
+
+.form-header {
+    align-items: center;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 1.5em;
+}
+
+.form-title {
+    margin-bottom: 1em;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+}
+
+.mint-icons {
+    display:flex;
+    justify-content: center;
+}
+
+.mint-icons img {
+    margin: 0.25em;
+}
+
+.icons {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+a {
+    color: var(--blue);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+input {
+    height: 3em;
+}
+
+.email {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.phone {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.password {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.con-pass {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.button {
+    flex: 2;
+}
+
+.statements {
+    flex: 2;
+}
