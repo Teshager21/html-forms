@@ -114,6 +114,15 @@ button img {
   display: flex;
   align-items: center;
 }
+
+p {
+  font-size: 0.8rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+}
+
 .mint-icons p {
   font-size: 1.2em;
 }
@@ -164,10 +173,6 @@ form {
   margin-bottom: 1em;
 }
 
-p {
-  font-size: 0.8rem;
-}
-
 a {
   color: var(--blue);
   font-size: 0.8rem;
@@ -192,10 +197,6 @@ input {
   display: flex;
   flex: 2;
   flex-direction: column;
-}
-
-footer p {
-  font-size: 0.7rem;
 }
 
 .phone p {
