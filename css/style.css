@@ -3,6 +3,8 @@
     --gray: #eceef1;
 }
 
+/*  Global reset */
+
 * {
     margin:0;
     padding:0;
@@ -40,8 +42,10 @@ body {
     margin: 1.5em 0 1em;
     padding: 0;
     width: 20vw;
+   
     height: 2.1em;
 }
+/* the form */
 
 form {
     background-color: white;
@@ -201,6 +205,8 @@ button img {
     font-weight: 600;
     font-size: 0.6rem;
 }
+
+/* the footer */
 
 footer {
     margin: 1.5em 2em 1em;
