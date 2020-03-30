@@ -1,4 +1,6 @@
-* {
+/* global reset */
+
+a,body, div,footer,form,header,h2,i,img,input,label,main,p{
     border: 0;
     margin: 0;
     padding: 0;
@@ -9,13 +11,14 @@
 :root {
     --blue: #0077c5;
     --gray: #eceef1;
+    --gray1:#404040;
 }
 
 /* body */
 
 body {
     background-color: var(--gray);
-    color: #404040;
+    color:var(--gray1);
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -206,7 +209,7 @@ button img {
 }
 
 .statements p:first-child {
-    color: #404040;
+    color:var(--gray1);
     font-style: italic;
     line-height: 1.7em;
     padding: 0 1.1em;
@@ -216,9 +219,9 @@ button img {
 .statements p:last-child {
     background-color: var(--gray);
     font-size: 0.6rem;
-    padding: 2.5em;
-    text-align: center;
     margin: 0 -3.3em -3.3em -3.3em;
+    padding: 2.5em;
+    text-align: center; 
 }
 
 .statements p:last-child a {
@@ -243,7 +246,7 @@ footer p:last-child {
 }
 
 .anchors a {
-    color: #404040;
+    color:var(--gray1);
     font-size: 0.7rem;
     text-decoration: none;
 }
