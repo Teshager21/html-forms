@@ -1,0 +1,15 @@
+#file
+*.exe
+
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+
+# Recycle Bin used on file shares
+
+$RECYCLE.BIN/
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
