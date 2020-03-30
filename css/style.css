@@ -110,6 +110,14 @@ button img {
 
 /* header */
 
+.icons div {
+  display: flex;
+  align-items: center;
+}
+.mint-icons p {
+  font-size: 1.2em;
+}
+
 .icons {
   display: flex;
   flex-direction: column;
