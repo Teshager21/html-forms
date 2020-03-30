@@ -73,7 +73,7 @@ body {
     justify-content: center;
 }
 
-#logo {
+.logo img {
     height: 2em;
     margin: 1.5em 0 1em;
     padding: 0;
