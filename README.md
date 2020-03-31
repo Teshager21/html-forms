@@ -1,10 +1,10 @@
 # HTML-Form
 
- This is a project of cloning mint.com signup page as a part of practicing HTML forms.
+    This is a project of cloning mint.com sign-up page as a part of practicing HTML forms.
 
 ![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
+    Additional description about the project and its features.
 
 ## Built With
 
@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+    To get a local copy up and running follow these simple example steps.
 
 
 ### Install
@@ -48,12 +48,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+    Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+    Give a ⭐️ if you like this project!
 
 ## 📝 License
+
+This project is [MIT](lic.url) licensed.
