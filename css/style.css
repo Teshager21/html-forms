@@ -111,8 +111,8 @@ button img {
 /* header */
 
 .icons div {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 p {
@@ -222,9 +222,9 @@ input {
   flex: 2;
 }
 
-.button button :hover {
-  opacity:0.9;
+.button button:hover {
   cursor: pointer;
+  opacity: 0.9;
 }
 
 .statements {
