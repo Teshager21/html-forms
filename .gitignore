@@ -5,7 +5,8 @@
 .settings/
 .vscode/
 
-# Recycle Bin used on file shares
+# Node Modules
+node_modules/
 
 $RECYCLE.BIN/
 
@@ -13,3 +14,6 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+#JSON Files
+*.json
