@@ -222,7 +222,7 @@ input {
   flex: 2;
 }
 
-.button button:hover {
+.button button :hover {
   opacity:0.9;
   cursor: pointer;
 }
