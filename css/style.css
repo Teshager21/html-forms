@@ -1,0 +1,286 @@
+/* global reset */
+
+a,
+body,
+div,
+footer,
+form,
+header,
+h2,
+i,
+img,
+input,
+label,
+main,
+p {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* variables */
+
+:root {
+  --blue: #0077c5;
+  --gray: #eceef1;
+  --gray1: #404040;
+}
+
+/* body */
+
+body {
+  background-color: var(--gray);
+  color: var(--gray1);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* sign in */
+
+.sign_in {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0.5em 1.5em;
+}
+
+.text {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  align-items: center;
+  background-color: var(--blue);
+  border-radius: 0.5em;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  font-size: 1rem;
+  height: 3em;
+  justify-content: center;
+  margin-top: 0.5em;
+  width: 20em;
+}
+
+.sign_in button {
+  align-items: center;
+  background-color: var(--blue);
+  border-radius: 0.3em;
+  box-shadow: none;
+  color: white;
+  display: flex;
+  font-size: 0.8rem;
+  height: 2.5em;
+  justify-content: center;
+  margin: 0 0.5em;
+  width: 8em;
+}
+
+button img {
+  height: 1.5em;
+  margin: 0.7em;
+}
+
+.logo img {
+  height: 2em;
+  margin: 1.5em 0 1em;
+  padding: 0;
+  width: 8.2em;
+}
+
+.mint-icons img {
+  margin: 0.2em;
+}
+
+.password img {
+  left: 88%;
+  position: absolute;
+  top: 30%;
+  width: 2em;
+}
+
+.sign_in button img {
+  margin: 0 0.5em;
+  padding: 0;
+}
+
+/* header */
+
+.icons div {
+  align-items: center;
+  display: flex;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+}
+
+.mint-icons p {
+  font-size: 1.2em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.mint-icons {
+  display: flex;
+  justify-content: center;
+}
+
+/* main */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  display: flex;
+  flex-direction: column;
+  height: 40em;
+  padding: 2em;
+  width: 20em;
+}
+
+.form-header {
+  align-items: center;
+  display: flex;
+  flex: 2.3;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.form-title {
+  margin-bottom: 1em;
+}
+
+a {
+  color: var(--blue);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+input {
+  border: 1px solid lightgray;
+  border-radius: 0.2em;
+  box-shadow: none;
+  height: 3em;
+  margin-top: 0.5em;
+}
+
+.email {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.phone {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.phone p {
+  font-size: 0.65em;
+  margin-bottom: 3em;
+  margin-top: 0.55em;
+}
+
+.password {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  position: relative;
+}
+
+.con-pass {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.button {
+  flex: 2;
+}
+
+.button button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.statements {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.statements p {
+  flex-direction: column;
+}
+
+footer p:last-child {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
+.statements p:first-child {
+  color: var(--gray1);
+  font-style: italic;
+  line-height: 1.7em;
+  padding: 0 1.1em;
+  text-align: center;
+}
+
+.statements p:last-child {
+  background-color: var(--gray);
+  font-size: 0.6rem;
+  margin: 0 -3.3em -3.3em -3.3em;
+  padding: 2.5em;
+  text-align: center;
+}
+
+.anchors a {
+  color: var(--gray1);
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.statements p:last-child a {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+/* footer */
+
+footer {
+  margin: 1.5em 2em 1em;
+  text-align: center;
+}
+
+/* media query */
+
+@media (max-width: 800px) {
+  .sign_in {
+    display: none;
+  }
+}

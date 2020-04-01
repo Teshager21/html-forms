@@ -1,0 +1,19 @@
+#file
+*.exe
+
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
+
+# Node Modules
+node_modules/
+
+$RECYCLE.BIN/
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#JSON Files
+*.json
